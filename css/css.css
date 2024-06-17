@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    font-family: "Be Vietnam Pro", sans-serif;
+    background-color: #ecf7f6;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#app {
+    width: 80%;
+    margin-top: 20px;
+}
+
+h1 {
+    color: #333;
+}
+
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.card {
+    background-color: #e1e3e1;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    padding: 20px;
+    width: calc(33.333% - 20px); 
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.nombre {
+    margin-top: 0;
+    color: #333;
+}
+
+img {
+    width: 100%;
+    max-width: 150px;
+    height: auto;
+    margin: 10px 0;
+    border-radius: 50%;
+    border: 2px solid #ccc;
+}
+
+img.titulo {
+    width: 100%;
+    max-width: 150px;
+    height: auto;
+    margin: 10px 0;
+    border: 2px solid #000;
+}
+
+button.superior {
+    background-color: #32CD32;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button.inferior {
+    background-color: #FF0000;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+button:hover {
+    background-color: #154fbb;
+}
+
+button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+button.nuevo-combate {
+    background-color: #FFC300;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.info {
+    margin-top: 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background-color: #e2e2e2;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.pokemon-img {
+    width: 50px;
+    height: auto;
+    margin-right: 10px;
+    border-radius: 50%;
+    border: 2px solid #ccc;
+}
+
+.mapa {
+    width: 100%;
+    height: 100px; 
+    background-color: #1e88e5; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pokemon-logo {
+    max-width: 60%; 
+    height: 50%;
+}

@@ -1,0 +1,168 @@
+[
+  {
+    "nombre": "Ash Ketchum",
+    "imagen": "img/e1.png",
+    "pokemones": [
+      { "nombre": "Pikachu", "imagen": "img/Pikachu.jpg" },
+      { "nombre": "Charizard", "imagen": "img/Charizard.jpg" },
+      { "nombre": "Venusaur", "imagen": "img/Venusaur.jpg" },
+      { "nombre": "Blastoise", "imagen": "img/blastoise.png" },
+      { "nombre": "jigglypuff", "imagen": "img/jigglypuff.png" }
+    ]
+  },
+  {
+    "nombre": "Lady",
+    "imagen": "img/e2.png",
+    "pokemones": [
+      { "nombre": "Arcanine", "imagen": "img/arcanine.png" },
+      { "nombre": "Cubone", "imagen": "img/Cubone.png" },
+      { "nombre": "Eevee", "imagen": "img/eevee.png" },
+      { "nombre": "Ponyta", "imagen": "img/Ponyta.png" },
+      { "nombre": "Lairon", "imagen": "img/Lairon.png" }
+    ]
+  },
+  {
+    "nombre": "Black Belt",
+    "imagen": "img/e3.png",
+    "pokemones": [
+      { "nombre": "Squirtle", "imagen": "img/squirtle.png"  },
+      { "nombre": "Umbreon", "imagen": "img/Umbreon.png"  },
+      { "nombre": "Scizor", "imagen": "img/Scizor.png"  },
+      { "nombre": "Psyduck", "imagen": "img/Psyduck.png"  },
+      { "nombre": "Lucario", "imagen": "img/Lucario.png"  }
+    ]
+  },
+  {
+    "nombre": "Beauty",
+    "imagen": "img/e4.png",
+    "pokemones": [
+      { "nombre": "Nidoking", "imagen": "img/Nidoking.png"  },
+      { "nombre": "Gengar", "imagen": "img/Gengar.png"  },
+      { "nombre": "Bulbasaur", "imagen": "img/Bulbasaur.png"  },
+      { "nombre": "Umbreon", "imagen": "img/Umbreon.png"  },
+      { "nombre": "Lucario", "imagen": "img/Lucario.png"  }
+    ]
+  },
+  {
+    "nombre": "Ace Trainer",
+    "imagen": "img/e5.png",
+    "pokemones": [
+      { "nombre": "Charizard", "imagen": "img/Charizard.jpg" },
+      { "nombre": "Lucario", "imagen": "img/Lucario.png"  },
+      { "nombre": "Scizor", "imagen": "img/Scizor.png"  },
+      { "nombre": "Lairon", "imagen": "img/Lairon.png" },
+      { "nombre": "Lairon", "imagen": "img/Lairon.png" }
+    ]
+  },
+  {
+    "nombre": "Coach Trainer",
+    "imagen": "img/e6.png",
+    "pokemones": [
+      { "nombre": "Nidoking", "imagen": "img/Nidoking.png"  },
+      { "nombre": "Scizor", "imagen": "img/Scizor.png"  },
+      { "nombre": "Lairon", "imagen": "img/Lairon.png" },
+      { "nombre": "Venusaur", "imagen": "img/Venusaur.jpg" },
+      { "nombre": "Lucario", "imagen": "img/Lucario.png"  }
+    ]
+  },
+  {
+    "nombre": "Rising Star",
+    "imagen": "img/e7.png",
+    "pokemones": [
+      { "nombre": "Scizor", "imagen": "img/Scizor.png"  },
+      { "nombre": "Lucario", "imagen": "img/Lucario.png"  },
+      { "nombre": "Scizor", "imagen": "img/Scizor.png"  },
+      { "nombre": "Nidoking", "imagen": "img/Nidoking.png"  },
+      { "nombre": "Scizor", "imagen": "img/Scizor.png"  }
+    ]
+  },
+  {
+    "nombre": "Pokémon Breeder",
+    "imagen": "img/e8.png",
+    "pokemones": [
+      { "nombre": "Nidoking", "imagen": "img/Nidoking.png"  },
+      { "nombre": "Lairon", "imagen": "img/Lairon.png" },
+      { "nombre": "Lairon", "imagen": "img/Lairon.png" },
+      { "nombre": "Blastoise", "imagen": "img/blastoise.png" },
+      { "nombre": "Scizor", "imagen": "img/Scizor.png"  }
+    ]
+  },
+  {
+    "nombre": "Nerio",
+    "imagen": "img/e9.png",
+    "pokemones": [
+      { "nombre": "Nidoking", "imagen": "img/Nidoking.png"  },
+      { "nombre": "Nidoking", "imagen": "img/Nidoking.png"  },
+      { "nombre": "Nidoking", "imagen": "img/Nidoking.png"  },
+      { "nombre": "Nidoking", "imagen": "img/Nidoking.png"  },
+      { "nombre": "Nidoking", "imagen": "img/Nidoking.png"  }
+    ]
+  },
+  {
+    "nombre": "Roy",
+    "imagen": "img/e10.png",
+    "pokemones": [
+      { "nombre": "Blastoise", "imagen": "img/blastoise.png" },
+      { "nombre": "Blastoise", "imagen": "img/blastoise.png" },
+      { "nombre": "Blastoise", "imagen": "img/blastoise.png" },
+      { "nombre": "Blastoise", "imagen": "img/blastoise.png" },
+      { "nombre": "Blastoise", "imagen": "img/blastoise.png" }
+    ]
+  },
+  {
+    "nombre": "Gentleman",
+    "imagen": "img/e11.png",
+    "pokemones": [
+      { "nombre": "Lairon", "imagen": "img/Lairon.png" },
+      { "nombre": "Lairon", "imagen": "img/Lairon.png" },
+      { "nombre": "Blastoise", "imagen": "img/blastoise.png" },
+      { "nombre": "Arcanine", "imagen": "img/arcanine.png" },
+      { "nombre": "Lairon", "imagen": "img/Lairon.png" }
+    ]
+  },
+  {
+    "nombre": "Engineer",
+    "imagen": "img/e12.png",
+    "pokemones": [
+      { "nombre": "Arcanine", "imagen": "img/arcanine.png" },
+      { "nombre": "Cubone", "imagen": "img/Cubone.png" },
+      { "nombre": "Eevee", "imagen": "img/eevee.png" },
+      { "nombre": "Ponyta", "imagen": "img/Ponyta.png" },
+      { "nombre": "Lairon", "imagen": "img/Lairon.png" }
+    ]
+  },
+  {
+    "nombre": "Berto y Olvia",
+    "imagen": "img/e13.png",
+    "pokemones": [
+      { "nombre": "Arcanine", "imagen": "img/arcanine.png" },
+      { "nombre": "Cubone", "imagen": "img/Cubone.png" },
+      { "nombre": "Eevee", "imagen": "img/eevee.png" },
+      { "nombre": "Ponyta", "imagen": "img/Ponyta.png" },
+      { "nombre": "Lairon", "imagen": "img/Lairon.png" }
+    ]
+  },
+  {
+    "nombre": "Brock",
+    "imagen": "img/e14.png",
+    "pokemones": [
+      { "nombre": "Arcanine", "imagen": "img/arcanine.png" },
+      { "nombre": "Cubone", "imagen": "img/Cubone.png" },
+      { "nombre": "Eevee", "imagen": "img/eevee.png" },
+      { "nombre": "Ponyta", "imagen": "img/Ponyta.png" },
+      { "nombre": "Lairon", "imagen": "img/Lairon.png" }
+    ]
+  },
+  {
+    "nombre": "May",
+    "imagen": "img/e15.png",
+    "pokemones": [
+      { "nombre": "Venusaur", "imagen": "img/Venusaur.jpg" },
+      { "nombre": "Venusaur", "imagen": "img/Venusaur.jpg" },
+      { "nombre": "Venusaur", "imagen": "img/Venusaur.jpg" },
+      { "nombre": "Venusaur", "imagen": "img/Venusaur.jpg" },
+      { "nombre": "Venusaur", "imagen": "img/Venusaur.jpg" }
+    ]
+  }
+  ]
+  

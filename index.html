@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">        
+    <meta name="description" content="">
+    <title>COMBATE POKÉMON</title>
+    <link rel="stylesheet" href="css/css.css">        
+</head>
+<body>
+    <div class="mapa">
+        <img class="titulo" src="img/Pokemonlogo.png" alt="Logo de Pokémon" class="pokemon-logo">
+    </div> 
+    <div id="app">
+        <h1>{{ titulo }}</h1>
+        <div class="cards-container">
+            <div v-for="entrenador in entrenadores" :key="entrenador.nombre" class="card">
+                <h2 class="nombre">{{ entrenador.nombre }}</h2>
+                <div class="info" v-if="entrenador.mostrarPokemones">
+                    <ul>
+                        <li v-for="pokemon in entrenador.pokemones.slice(0, 5)" :key="pokemon.nombre">
+                            <img :src="pokemon.imagen" :alt="pokemon.nombre" class="pokemon-img">
+                            {{ pokemon.nombre }}
+                        </li>
+                    </ul>
+                </div>
+                <button class="superior" @click="verPokemon(entrenador)">Ver Pokémon</button>
+                <button class="inferior" @click="seleccionarEntrenador(entrenador)">Seleccionar para combate</button>
+                <img :src="entrenador.imagen" :alt="`Imagen de ${entrenador.nombre}`">
+            </div>
+        </div>
+        <button class="nuevo-combate" @click="nuevoCombate" :disabled="entrenadoresSeleccionados.length !== 2">Iniciar combate</button>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="app/app.js"></script>
+</body>
+</html>
